@@ -1,0 +1,39 @@
+/* Give all the divs a border of your choice, as well as a margin of 5px.
+Hide the p element that is the direct child of the div with the id of “third”
+Hide all the h1 elements on the page.
+Hide all the descendants of the div with the id “second”.
+Now display again ONLY the <img> elements on the page. */
+
+/* div > p {
+    color: red;
+    visibility: hidden;
+}
+
+h1 {
+    color: red;
+    visibility: hidden;
+}
+
+#second {
+    color: red;
+    visibility: hidden;
+}
+
+img {
+    visibility: visible;
+} */
+
+/* Exercise 2
+
+Add two short forms with two inputs each of the type “text” . One form should be a sibling to the <h1> element and the second form to the <img> element.
+
+The <p> element in the #first <div> is more important, so we want its font size to be bigger than those of the other <p> elements. */
+
+div {
+    border: solid 1px;
+}
+
+#first p {
+    font-size: 30px;
+}
+
