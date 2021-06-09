@@ -1,0 +1,12 @@
+
+
+div {
+    background-color: rgb(18, 148, 218);
+    border: solid 1px;
+    border-color: black;
+    margin: 5px;
+}
+
+#first p {
+    font-size: larger;
+}
