@@ -1,0 +1,32 @@
+/* Give all the divs a border of your choice, as well as a margin of 5px.
+
+Hide the p element that is the direct child of the div with the id of “third”
+
+Hide all the h1 elements on the page.
+
+Hide all the descendants of the div with the id “second”.
+
+Now display again ONLY the <img> elements on the page. */
+
+div {
+    border: solid 1px;
+}
+
+div > p {
+    color: red;
+    visibility: hidden;
+}
+
+h1 {
+    color: red;
+    visibility: hidden;
+}
+
+#second {
+    color: red;
+    visibility: hidden;
+}
+
+img {
+    visibility: visible;
+}
