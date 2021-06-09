@@ -1,0 +1,24 @@
+
+
+div {
+    background-color: rgb(18, 148, 218);
+    border: solid 1px;
+    border-color: black;
+    margin: 5px;
+}
+
+#third > p {
+    visibility: hidden;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+#second > *{
+    visibility: hidden;
+}
+
+img {
+    visibility: visible;
+}
